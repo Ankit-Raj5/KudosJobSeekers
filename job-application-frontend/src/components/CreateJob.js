@@ -20,7 +20,7 @@ function CreateJob() {
     };
 
     try {
-      const response = await axios.post('http://localhost:5000/api/jobs/create', jobData);
+      const response = await axios.post('https://kudosjobseekers.onrender.com/api/jobs/create', jobData);
       alert("Job created Successfully")
       navigate('/'); 
     } catch (error) {

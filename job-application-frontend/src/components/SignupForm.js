@@ -34,7 +34,7 @@ const SignupForm = () => {
     data.append('resume', formData.resume);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/signup', data);
+      const response = await axios.post('https://kudosjobseekers.onrender.com/api/signup', data);
       alert("Application submitted successfully");
     } catch (error) {
       alert('Error signing up');

@@ -41,7 +41,7 @@ function Jobs() {
       
       try {
         // Ensure the URL is correctly formatted
-        const response = await axios.get('http://localhost:5000/api/jobs/alljobs');
+        const response = await axios.get('https://kudosjobseekers.onrender.com/api/jobs/alljobs');
         console.log("********");
         setJobs(response.data);
         console.log(response.data);
