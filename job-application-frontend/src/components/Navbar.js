@@ -27,7 +27,7 @@ function Navbar() {
                         
                     </ul>
                     <li className="nav-item">
-                        <a className="nav-link" href="/createJob">Post Job</a>
+                        <Link className="nav-link" to="/createJob">Post Job</Link>
                     </li>
                     </div>
                 </div>
