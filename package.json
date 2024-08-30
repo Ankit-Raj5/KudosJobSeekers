@@ -1,0 +1,13 @@
+{
+    "name": "kudosjobseeker",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "npx nodemon kudosjobseekers/index.js",
+      "server": "nodemon index.js",
+      "client": "npm start --prefix client",
+      "dev": "concurrently \"npm run index\" \"npm run client\""
+    },
+    "dependencies": {
+      "concurrently": "^6.2.0"
+    }
+  }
